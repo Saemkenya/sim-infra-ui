@@ -1,8 +1,13 @@
 import React from 'react';
-import {NavbarContainer} from "../components/Navbar.styles";
+import {NavbarContainer,
+     LeftContainer,
+     RightContainer } from "../components/Navbar.styles";
 function Navbar (){
     return (
-         <NavbarContainer>  </NavbarContainer>
+         <NavbarContainer> 
+        <RightContainer>  </RightContainer>
+        <LeftContainer></LeftContainer>
+         </NavbarContainer>
 
     );
 }
