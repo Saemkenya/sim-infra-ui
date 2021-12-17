@@ -6,5 +6,4 @@ height: 80px;
 background-color: black;
 display: flex;
 flex-direction: column;
-
 `;

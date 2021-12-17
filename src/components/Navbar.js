@@ -5,8 +5,6 @@ function Navbar (){
          <NavbarContainer>  </NavbarContainer>
 
     );
-    
-   
 }
 
 export default Navbar;
