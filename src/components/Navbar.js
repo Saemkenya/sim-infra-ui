@@ -1,13 +1,40 @@
 import React from 'react';
+import { Link } from 'react-router';
 import {NavbarContainer,
      LeftContainer,
-     RightContainer } from "../components/Navbar.styles";
+     RightContainer, 
+     NavbarInnerContainer,
+     NavbarExtendedContainer,
+     NavbarLinkContainer,
+
+} from "../components/Navbar.styles";
+
+
+
+
 function Navbar (){
     return (
          <NavbarContainer> 
-        <RightContainer>  </RightContainer>
-        <LeftContainer></LeftContainer>
-         </NavbarContainer>
+
+            <NavbarInnerContainer>
+
+                 <LeftContainer>
+                 
+                 <NavbarLinkContainer >
+                hello world sam !!
+                <Link to="/"> home </Link>
+                </NavbarLinkContainer>
+
+                 </LeftContainer>
+
+                <RightContainer>
+
+                </RightContainer>
+           </NavbarInnerContainer>
+
+            <NavbarExtendedContainer> </NavbarExtendedContainer>
+
+            </NavbarContainer>
 
     );
 }
