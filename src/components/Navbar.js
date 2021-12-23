@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-//import { Link } from "react-router-dom";
 import {
   NavbarContainer,
   LeftContainer,
@@ -7,13 +6,7 @@ import {
   NavbarInnerContainer,
   NavbarLinkContainer,
   NavbarLink,
-  NavbarExtendedContainer,
-  Logo,
 } from "./Navbar.styles";
-import logoImg from "../assets/logo.png";
-
-// hey, just added a comment to checkout something
-// i bet this is the main project to be pushed to Git
 
 function Navbar() {
   return (
@@ -31,13 +24,8 @@ function Navbar() {
             <NavbarLink to="/whatsapp"> Whatsapp</NavbarLink>
           </NavbarLinkContainer>
         </LeftContainer>
-
-        <RightContainer>
-          <Logo src={logoImg} />
-        </RightContainer>
+        <RightContainer></RightContainer>
       </NavbarInnerContainer>
-
-      <NavbarExtendedContainer> </NavbarExtendedContainer>
     </NavbarContainer>
   );
 }

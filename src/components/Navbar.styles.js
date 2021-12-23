@@ -4,19 +4,19 @@ import { Link } from "react-router-dom";
 export const NavbarContainer = styled.nav`
   width: 100%;
   height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
-  background-color: #063d2f;
+  background-color: black;
   display: flex;
   flex-direction: column;
 `;
 
-export const LeftContainer = styled.nav`
+export const LeftContainer = styled.div`
   flex: 70%;
   display: flex;
   align-items: center;
   padding-left: 5%;
 `;
 
-export const RightContainer = styled.nav`
+export const RightContainer = styled.div`
   flex: 30%;
   display: flex;
   justify-content: flex-end;
@@ -29,21 +29,14 @@ export const NavbarInnerContainer = styled.div`
   display: flex;
 `;
 
-export const NavbarLink = styled(Link)`
-  color: white;
-  font-size: medium;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  margin: 10px;
-`;
-
 export const NavbarLinkContainer = styled.div`
   display: flex;
 `;
 
-export const NavbarExtendedContainer = styled.div``;
-
-export const Logo = styled.img`
-  max-height: 200px;
-  height: auto;
+export const NavbarLink = styled(Link)`
+  color: white;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 10px;
 `;
