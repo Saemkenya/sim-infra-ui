@@ -1,42 +1,38 @@
-import React from 'react';
-import { Link } from 'react-router';
-import {NavbarContainer,
-     LeftContainer,
-     RightContainer, 
-     NavbarInnerContainer,
-     NavbarExtendedContainer,
-     NavbarLinkContainer,
+import React, { useState } from "react";
+//import { Link } from "react-router-dom";
+import {
+  NavbarContainer,
+  LeftContainer,
+  RightContainer,
+  NavbarInnerContainer,
+  NavbarLinkContainer,
+  NavbarLink,
+  NavbarExtendedContainer,
+} from "./Navbar.styles";
 
-} from "../components/Navbar.styles";
+function Navbar() {
+  return (
+    <NavbarContainer>
+      <NavbarInnerContainer>
+        <LeftContainer>
+          <NavbarLinkContainer>
+            <NavbarLink to="/"> Home</NavbarLink>
+            <NavbarLink to="/money"> Mobile Money</NavbarLink>
+            <NavbarLink to="/contacts"> Sim Contacts</NavbarLink>
+            <NavbarLink to="/voice"> Voice Calls</NavbarLink>
+            <NavbarLink to="/ussd"> USSD Calls</NavbarLink>
+            <NavbarLink to="/bulk"> Bulk Messaging</NavbarLink>
+            <NavbarLink to="/data"> Manage Data</NavbarLink>
+            <NavbarLink to="/whatsapp"> Whatsapp</NavbarLink>
+          </NavbarLinkContainer>
+        </LeftContainer>
 
+        <RightContainer>hey there this is right component</RightContainer>
+      </NavbarInnerContainer>
 
-
-
-function Navbar (){
-    return (
-         <NavbarContainer> 
-
-            <NavbarInnerContainer>
-
-                 <LeftContainer>
-                 
-                 <NavbarLinkContainer >
-                hello world sam !!
-                <Link to="/"> home </Link>
-                </NavbarLinkContainer>
-
-                 </LeftContainer>
-
-                <RightContainer>
-
-                </RightContainer>
-           </NavbarInnerContainer>
-
-            <NavbarExtendedContainer> </NavbarExtendedContainer>
-
-            </NavbarContainer>
-
-    );
+      <NavbarExtendedContainer> </NavbarExtendedContainer>
+    </NavbarContainer>
+  );
 }
 
 export default Navbar;
