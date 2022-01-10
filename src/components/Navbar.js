@@ -27,7 +27,7 @@ function Navbar() {
           </NavbarLinkContainer>
         </LeftContainer>
 
-        <RightContainer>hey there this is right component</RightContainer>
+        <RightContainer>hey, this is the right component </RightContainer>
       </NavbarInnerContainer>
 
       <NavbarExtendedContainer> </NavbarExtendedContainer>

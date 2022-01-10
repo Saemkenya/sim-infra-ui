@@ -1,13 +1,13 @@
-import Navbar from './components/Navbar';
-import React from 'react';
+import Navbar from "./components/Navbar";
+import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  return ( 
+  return (
     <Router>
       <Navbar />
-    <p> hey there </p>
+      <p> hey there, we're getting started </p>
       <Routes>
         <Route path="/" />
         <Route path="/money" />
@@ -18,12 +18,8 @@ function App() {
         <Route path="/data" />
         <Route path="/whatsapp" />
       </Routes>
-    </Router>   
-    
-
+    </Router>
   );
 }
 
 export default App;
-
-
