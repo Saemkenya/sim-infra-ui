@@ -24,7 +24,7 @@ function Navbar() {
             <NavbarLink to="/whatsapp"> Whatsapp</NavbarLink>
           </NavbarLinkContainer>
         </LeftContainer>
-        <RightContainer></RightContainer>
+        <RightContainer> this is the right component</RightContainer>
       </NavbarInnerContainer>
     </NavbarContainer>
   );
