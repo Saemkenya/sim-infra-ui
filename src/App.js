@@ -8,6 +8,7 @@ function App() {
     <Router>
       <Navbar />
       <p> hey there, we're getting started </p>
+
       <Routes>
         <Route path="/" />
         <Route path="/money" />

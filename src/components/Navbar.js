@@ -8,7 +8,9 @@ import {
   NavbarLinkContainer,
   NavbarLink,
   NavbarExtendedContainer,
+  Logo,
 } from "./Navbar.styles";
+import logoImg from "../assets/logo.png";
 
 function Navbar() {
   return (
@@ -27,7 +29,9 @@ function Navbar() {
           </NavbarLinkContainer>
         </LeftContainer>
 
-        <RightContainer>hey, this is the right component </RightContainer>
+        <RightContainer>
+          <Logo src={logoImg} />
+        </RightContainer>
       </NavbarInnerContainer>
 
       <NavbarExtendedContainer> </NavbarExtendedContainer>

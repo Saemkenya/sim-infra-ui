@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export const NavbarContainer = styled.nav`
   width: 100%;
   height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
-  background-color: #084d3b;
+  background-color: #063d2f;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 `;
 
 export const LeftContainer = styled.nav`
@@ -42,3 +42,9 @@ export const NavbarLinkContainer = styled.div`
 `;
 
 export const NavbarExtendedContainer = styled.div``;
+
+export const Logo = styled.img`
+  //margin: 5px;
+  max-height: 200px;
+  height: auto;
+`;
