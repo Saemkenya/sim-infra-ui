@@ -12,6 +12,7 @@ import {
 //just another comment to confirm whether rebase and force push have worked
 
 //hey there, checking something here
+// another comment added
 
 function Navbar() {
   return (
