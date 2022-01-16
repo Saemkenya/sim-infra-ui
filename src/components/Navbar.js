@@ -9,6 +9,7 @@ import {
 } from "./Navbar.styles";
 
 // hey there, confirming something
+//just another comment to confirm whether rebase and force push have worked
 
 function Navbar() {
   return (
