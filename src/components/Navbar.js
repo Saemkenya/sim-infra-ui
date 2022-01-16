@@ -8,6 +8,8 @@ import {
   NavbarLink,
 } from "./Navbar.styles";
 
+// hey there, confirming something
+
 function Navbar() {
   return (
     <NavbarContainer>
