@@ -12,6 +12,9 @@ import {
 } from "./Navbar.styles";
 import logoImg from "../assets/logo.png";
 
+// hey, just added a comment to checkout something
+// i bet this is the main project to be pushed to Git
+
 function Navbar() {
   return (
     <NavbarContainer>

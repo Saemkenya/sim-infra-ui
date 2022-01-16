@@ -44,7 +44,6 @@ export const NavbarLinkContainer = styled.div`
 export const NavbarExtendedContainer = styled.div``;
 
 export const Logo = styled.img`
-  //margin: 5px;
   max-height: 200px;
   height: auto;
 `;
