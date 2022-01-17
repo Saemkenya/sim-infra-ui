@@ -8,14 +8,6 @@ import {
   NavbarLink,
 } from "./Navbar.styles";
 
-// hey there, confirming something
-//just another comment to confirm whether rebase and force push have worked
-
-//hey there, checking something here
-// another comment added
-// still added another comment, just learning
-// develop branch
-
 function Navbar() {
   return (
     <NavbarContainer>
