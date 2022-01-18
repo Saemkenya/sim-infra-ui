@@ -40,3 +40,5 @@ export const NavbarLink = styled(Link)`
   text-decoration: none;
   margin: 10px;
 `;
+
+export const NavbarLogo = styled.logo``;
